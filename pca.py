@@ -15,4 +15,6 @@ def myPCA(data, n_components = 100000):
   low_dim_mat = np.dot(mid, eig_vects)
   return low_dim_mat, eig_vals
 
-data = 
+data = np.array([np.array([2.5, 0.5, 2.2, 1.9, 3.1, 2.3, 2, 1, 1.5, 1.1]),\
+  np.array([2.4, 0.7, 2.9, 2.2, 3.0, 2.7, 1.6, 1.1, 1.6, 0.9])]).T
+print(myPCA(data, n_components=1))
