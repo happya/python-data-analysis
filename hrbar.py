@@ -2,7 +2,7 @@
 from hrdata import *
 
 # bar
-df = hrDataSEt()
+df = hrDataSet()
 sns.set_style(style="darkgrid")
 sns.set_context(context="poster", font_scale=1.2)
 sns.set_palette(sns.color_palette("RdBu", n_colors=7))
